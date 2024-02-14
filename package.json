@@ -4,6 +4,8 @@
   "description": "This is a Namaste React Episode 01",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [
