@@ -1,5 +1,17 @@
-<<<<<<< HEAD
-# react 
-=======
-# react 
->>>>>>> 04759807bf1a08f472c617db9b3ca5730754216d
+# TastyPal 
+## Food ordering app 
+
+<!-- *Header 
+    -logo
+    -nav items
+*Body 
+    -search
+    -Restuarant container
+        -Restarant card
+            -Img
+            -Name of res, star rating, delivery time, cuisines, location
+*Footer
+    -copyright
+    -links
+    -address
+    -contact us -->
