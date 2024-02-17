@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TastyPal 
 ## Food ordering app 
 
@@ -15,3 +16,6 @@
     -links
     -address
     -contact us -->
+=======
+# react 
+>>>>>>> 1be9e2f8744a2374fdf95ab12838115ecd55cb75
