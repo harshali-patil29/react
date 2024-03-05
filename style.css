@@ -4,13 +4,11 @@ body{
 }
 .header{
     /* position: fixed; */
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: flex-start;
-    
-    /* background-color: rgb(228, 0, 99); */
-    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 h1, h2, h3, h4, h5, h6 ,p{
@@ -20,11 +18,13 @@ h1, h2, h3, h4, h5, h6 ,p{
     padding-bottom: 0;
   }
 .logo{
-    width: 80px;
-    margin-left: 140px;
+    width: 120px;
+    margin-left: 110px;
     padding: 10px;
+    cursor: pointer;
 }
 .nav-items{
+    margin-top: 0;
     margin-right: 120px;
     /* border: 2px solid black; */
     
@@ -40,11 +40,22 @@ h1, h2, h3, h4, h5, h6 ,p{
     display: flex;
     padding: 20px;
 }
+
+.login-btn{
+    height: 30px;
+    background-color: rgb(157, 234, 225);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
 .search{
     width: 900px;
     cursor:text;
     margin: 20px 100px 0px 145px;
     padding: 10px;
+    color: gray;
     /* border: 1px solid black; */
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -79,4 +90,62 @@ h1, h2, h3, h4, h5, h6 ,p{
     margin: 0; 
     border-radius: 15px; 
     object-fit: cover; 
+}
+
+.filter{
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+
+
+}
+img.rating{
+    width: 15px;
+}
+.filter-btn{
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    top: 20px;
+    left: 150px;
+    right: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /* margin: 20px 0 10px 150px; */
+
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(201, 196, 196);
+}
+
+.filter-btn:hover{
+    background-color: rgb(242, 235, 235);
+}
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    /* margin: 0px 100px 0px 100px; */
+}
+
+.shimmer-card{
+    margin: 20px;
+    width: 230px;
+    height: 120px;
+    padding: 10px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 10px;
+}
+
+.search-bar{
+
+    width: 900px;
+    height: 20px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 20px;
+    margin: 20px 100px 0px 145px;
+    padding: 10px;
 }

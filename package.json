@@ -2,7 +2,6 @@
   "name": "ep01",
   "version": "1.0.0",
   "description": "This is a Namaste React Episode 01",
-  
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -19,6 +18,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-slick": "^0.30.2",
+    "react-spinners": "^0.13.8"
   }
 }
