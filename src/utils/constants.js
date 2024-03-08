@@ -4,4 +4,4 @@ export const LogoImg = 'https://play-lh.googleusercontent.com/L7idU6EGvlhQh8y7er
 
 export const RATING_URL = 'https://img.freepik.com/free-vector/start_53876-25533.jpg?w=740&t=st=1708238454~exp=1708239054~hmac=fcba3f8caf9cb6fd578096f4c56471d19047def3e1f169f1ac08a57313cf545f';
 
-
+export const MENU_URL = 'https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.05650&lng=73.06560&restaurantId=';

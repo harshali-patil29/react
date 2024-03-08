@@ -4,6 +4,7 @@ import RestaurantCard from "./RestaurantCard";
 import { useState,useEffect } from "react";
 //import { PulseLoader } from "react-spinners";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
 
@@ -13,10 +14,9 @@ const Body = () => {
 
     const [searchText, setsearchText] = useState("");
  
-    useEffect(
-        ()=>{
+    useEffect(() => {
             fetchData();
-        },[]
+        }, []
         );
 
     const fetchData = async () =>{
@@ -93,7 +93,8 @@ const Body = () => {
             
             <div className="res-container">
                     {filteredRestaurant.map((restaurant,index) =>(
-                        <RestaurantCard key={index} resData = {restaurant}/>
+                        <Link key={index} to={"/restaurants/"+restaurant.info.id}> <RestaurantCard  resData = {restaurant}/></Link>
+                        
                         ))
                     }
             </div>
